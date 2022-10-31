@@ -1,5 +1,8 @@
 # MVCE for NameError: Could not de-stringify annotation UUID
 
+- `python -m pip install -r requirements.txt`
+- `python main.py`
+
 ```python
 Traceback (most recent call last):
   File "/home/peter/PycharmProjects/sqla-test/.venv/lib/python3.11/site-packages/sqlalchemy/util/typing.py", line 118, in de_stringify_annotation
